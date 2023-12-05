@@ -1,6 +1,6 @@
 # react-frontend-template
 
-Yumi 前端重构版本
+Shiku 独立marketplace
 
 - assets 静态文件
 - types 普遍用的类型

@@ -1,0 +1,98 @@
+.ant-input-number-input-wrap {
+    height: 100%;
+
+    input {
+        height: 100%;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+}
+
+.origyn-art-checkbox {
+    .ant-checkbox {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+
+        & + span {
+            line-height: 32px;
+            font-size: 14px;
+        }
+
+        &.ant-checkbox-checked {
+            .ant-checkbox-inner {
+                background-color: transparent !important;
+            }
+
+            &:hover {
+                .ant-checkbox-inner {
+                    background-color: transparent !important;
+                }
+            }
+
+            &:after {
+                border-color: #000 !important;
+            }
+        }
+
+        .ant-checkbox-inner {
+            width: 32px;
+            height: 32px;
+            border-color: #000 !important;
+            background-color: transparent !important;
+
+            &:after {
+                border-color: #000 !important;
+                transform: scale(1.4) rotate(45deg) translate(-50%, -50%);
+                inset-inline-start: 32% !important;
+            }
+        }
+
+        .ant-checkbox-checked:after {
+            border-color: #000 !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .origyn-art-checkbox {
+        .ant-checkbox {
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+
+            & + span {
+                line-height: 18px;
+                font-size: 12px;
+                padding-inline-start: 4px;
+                padding-inline-end: 0px;
+            }
+
+            &.ant-checkbox-checked {
+                .ant-checkbox-inner {
+                    background-color: transparent !important;
+                }
+
+                &:hover {
+                    .ant-checkbox-inner {
+                        background-color: transparent !important;
+                    }
+                }
+
+                &:after {
+                    border-color: #000 !important;
+                }
+            }
+
+            .ant-checkbox-inner {
+                width: 18px;
+                height: 18px;
+
+                &:after {
+                    transform: scale(1) rotate(45deg) translate(-50%, -50%);
+                    inset-inline-start: 23% !important;
+                }
+            }
+        }
+    }
+}

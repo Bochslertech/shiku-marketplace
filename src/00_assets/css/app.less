@@ -1,0 +1,85 @@
+/* antd message样式 */
+.ant-message .ant-message-notice .ant-message-notice-content {
+    border-radius: 18px !important;
+    height: 36px !important;
+    justify-content: between !important;
+    align-items: center !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    font-family: Inter-Medium !important;
+    font-size: 14px !important;
+    display: flex !important;
+}
+
+.ant-message .ant-message-notice .ant-message-notice-content .ant-message-custom-content {
+    display: flex !important;
+    justify-content: between !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+/* antd notification样式 */
+.ant-notification-notice {
+    border-radius: 10px !important;
+    justify-content: between !important;
+    align-items: center !important;
+    font-family: Inter-Medium !important;
+    font-size: 14px !important;
+    display: flex !important;
+}
+.ant-notification-notice-wrapper {
+    width: fit-content !important;
+    min-width: fit-content !important;
+    max-width: fit-content !important;
+    border-radius: 16px !important;
+}
+.ant-notification-notice .ant-notification-notice-content {
+    align-items: center !important;
+    font-family: Inter-Medium !important;
+    display: flex !important;
+}
+.ant-notification-notice .ant-notification-notice-content .ant-notification-notice-with-icon {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 0 7px !important;
+    align-items: center !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+.ant-notification-notice .ant-notification-notice-content .ant-notification-notice-icon {
+    position: relative !important;
+}
+.ant-notification
+    .ant-notification-notice
+    .ant-notification-notice-with-icon
+    .ant-notification-notice-message {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 0 !important;
+}
+.custom-pop-confirm {
+    max-width: 400px;
+    .ant-popover-content {
+        .ant-popover-inner-content {
+            cursor: pointer;
+            .ant-btn {
+                border: 1px solid rgba(0, 0, 0, 0.6);
+                color: #000;
+                cursor: pointer;
+                // user-select: none;
+            }
+            :where(.css-dev-only-do-not-override-nnuwmp).ant-btn-default:not(:disabled):not(
+                    .ant-btn-disabled
+                ):hover {
+                background: #000 !important;
+                color: #fff;
+            }
+            :where(.css-dev-only-do-not-override-nnuwmp).ant-btn-primary:not(:disabled):not(
+                    .ant-btn-disabled
+                ):hover {
+                background: #000 !important;
+                color: #fff;
+            }
+        }
+    }
+}

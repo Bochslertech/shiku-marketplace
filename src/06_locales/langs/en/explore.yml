@@ -1,0 +1,149 @@
+apply:
+    formItem3Checkbox1: Company / Project
+    formItem3Checkbox2: Independent Artist
+    formItem4Checkbox1: Collectibles
+    formItem4Checkbox2: Art
+    formItem4Checkbox3: Rare/Limited
+    formItem4Checkbox4: Metaverse / Game
+    formItem4Checkbox5: OAT
+    formItem4Checkbox6: Others
+    formItemMessage1: Please enter your contact information
+    formItemMessage2: Please enter your name
+    formItemMessage3: Please select who you are representing
+    formItemMessage4: Please select your area of interest
+    formItemPlaceholder1: Email, Twitter, Discord
+    formItemPlaceholder2: Name
+    formItemPlaceholder3: Name of the company/project
+    formItemPlaceholder5: Your answer
+    formItemPlaceholder6: Your tell us
+    formTitle1: 1. Best way to contact you
+    formTitle2: 2. What's your name?
+    formTitle3: 3. Who are you representing?
+    formTitle4: >-
+        4. What area are you interested to publish/collaborate with Yumi? (You can select multiple)
+    formTitle5: 5.  Have you published on other marketplace? If so please provide the link.
+    formTitle6: 6. Anything else you want to share with us?
+    introduce1: >-
+        Yumi is an NFT marketplace built on the Internet Computer. Ultra-fast, highly secure,
+        low-cost and fully decentralized with NFTs stored fully on-chain.
+    introduce2: >-
+        Are you interested in listing your project on Yumi? Fill out the form below and we will get
+        back to you!
+    introduce3: Reach out to us at
+    introduce4: if you have any questions.
+    permit1: >-
+        I consent to Yumi Ltd saving my personal data on the Internet Computer in storage space that
+        is accessible world-wide and therefore also from countries that provide for a lower level of
+        data protection than the country in which I am located. I take note that additional
+        information is available in Yumi Ltd's
+    permit2: Privacy Policy
+    permitError: Please agree to the User Agreement
+    policy1: "I agree to Yumi Ltd's "
+    policy2: Terms of Service
+    policy3: ' and '
+    policy4: Privacy Policy
+    policyError: Please check the Privacy Policy
+    submit: Submit
+    create: Create
+    title: Contact Yumi
+art:
+    creator: Creator
+creating:
+    addMore: Add More
+    blockchain: blockchain
+    blokChain: BlokChain
+    formItem2Checkbox1: Art
+    formItem2Checkbox10: Other
+    formItem2Checkbox2: 3D/Animation
+    formItem2Checkbox3: Collectibles
+    formItem2Checkbox4: Sports
+    formItem2Checkbox5: Music
+    formItem2Checkbox6: Utility
+    formItem2Checkbox7: Trading Cards
+    formItem2Checkbox8: Virtual Worlds
+    formItem2Checkbox9: Domain Names
+    formItemMessage1: Please enter your Name
+    formItemMessage2: Please Select your Categories of items
+    formItemMessage3: Please Upload Image, Video, or 3D Model
+    formItemMessage4: Please Upload Thumbnail
+    formItemPlaceholder1: Name
+    formItemPlaceholder5: Please enter your Description
+    formItemPlaceholder6: Please Enter Your URL
+    formItemTip3: >-
+        File types supported: JPG, PNG, GIF, SVG, MP4, MKV, GLB, GLTF. Max size: 150 MB. Recommended
+        image aspect ratio is 1:1.
+    formItemTip4: >-
+        file thumbnail, File types supported: JPG, PNG, GIF, SVG. Max size: 150 MB. Recommended
+        image aspect ratio is 1:1.
+    formItemTip5: >-
+        The description will be included on the item's detail page underneath its image.
+    formItemTip6: >-
+        YUMI will include a link to this URL on this item's detail page, so that users can click to
+        learn more about it. You are welcome to link to your own webpage with more details.
+    formTitle1: 1. Name
+    formTitle2: 2. Pick a category that fits your project best
+    formTitle3: 3. Image, Video, or 3D Model
+    formTitle4: 4. Thumbnail
+    formTitle5: 5. Description
+    formTitle6: 6. External Link
+    propertiesError: Please fill in all the type and name fields for properties.
+    propertiesTitle: >-
+        Properties show up underneath your item, are clickable, and can be filtered in your
+        collection's sidebar.
+    save: Save
+    submit: Add Properties
+    submitTip: Textual traits that show up as rectangles
+    submitTitle: Properties
+main:
+    art: Art
+    collectibles: Collectibles
+    collections: Collections
+    oat: OAT
+    search_placeholder: Search For Collection
+    tip: >-
+        Discover a diverse range of NFT categories, formats, and utilities across the industry,
+        including collectibles, on-chain achievement tokens (OATs), and NFT art. Enjoy an
+        NFT-friendly interface that enables batch transactions and a seamless user experience.
+    title: Explore Collections
+oat:
+    about: About the event
+    active: Active
+    warmUp: 'WarmUp'
+    ended: 'Ended'
+    cap: Cap
+    claim: Claim
+    claimed: Claimed
+    contents: Contents
+    eligibility: Eligibility
+    end: Event End
+    oatEnd: Claim OAT End
+    oatStart: Claim OAT Start
+    start: Event Start
+    status: Status
+    tipNo: You are not eligible , participate or wait for a claim
+    tipYes: Congratulations, you are eligible to receive this IC-OAT
+    us: Follow Us
+    userGuide: User Guide
+    whitelisted: Whitelisted
+    showLess: 'Show less'
+    showMore: 'Show more'
+creator:
+    title1: 'Welcome to the'
+    title2: 'YUMI creators community'
+    advantages:
+        title: 'Our Advantages'
+        text1: 'Join and build creators community globally'
+        text2: 'Professional support service'
+        text3: 'Zero gas and minting fees'
+        text4:
+            'Communicate and access to artists globally and we will help to promote your digital
+            work.'
+        text5: 'We provide professional service or 1v1 follow ups with strategic partners.'
+        text6: 'No fees for listing and minting your digital works.'
+        become: 'Become a creator'
+    creator:
+        title: 'How to become a creator on Yumi?'
+        text1: 'Submit the application form'
+        text2: 'Get approved'
+        text3: 'Upload your works'
+        text4: 'Review and launch'

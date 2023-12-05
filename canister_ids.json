@@ -1,0 +1,17 @@
+{
+    "frontend-yumi-next-development": {
+        "ic": "zfwjp-miaaa-aaaai-qpbwa-cai"
+    },
+    "frontend-yumi-next-test": {
+        "ic": "zc6lp-xyaaa-aaaah-aaneq-cai"
+    },
+    "frontend-yumi-next-staging": {
+        "ic": "h6mxt-byaaa-aaaah-abzha-cai"
+    },
+    "frontend-yumi-next-production": {
+        "ic": "6rxmp-vaaaa-aaaai-qpbfq-cai"
+    },
+    "frontend-yumi-next-production-main": {
+        "ic": "tppkg-ziaaa-aaaal-qatrq-cai"
+    }
+}

@@ -1,0 +1,187 @@
+{
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.tabSize": 4,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.eol": "\n",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/elehukouben": true,
+    "**/.git": true,
+    "**/.gitignore": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true,
+    "out": true,
+    "dist": true,
+    "node_modules": true,
+    "CHANGELOG.md": true,
+    "examples": true,
+    "res": true,
+    "screenshots": true,
+    "yarn-error.log": true,
+    "**/.yarn": true
+  },
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.editorconfig": true,
+    "**/.eslintcache": true,
+    "**/bower_components": true,
+    "**/.idea": true,
+    "**/tmp": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.vscode/**": true,
+    "**/node_modules/**": true,
+    "**/tmp/**": true,
+    "**/bower_components/**": true,
+    "**/dist/**": true,
+    "**/yarn.lock": true
+  },
+  "stylelint.enable": true,
+  "stylelint.packageManager": "yarn",
+  "path-intellisense.mappings": {
+    "@/": "${workspaceRoot}/src"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "i18n-ally.localesPaths": [
+    "src/06_locales/langs"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.sortKeys": true,
+  "i18n-ally.namespace": true,
+  "i18n-ally.pathMatcher": "{locale}/{namespaces}.{ext}",
+  "i18n-ally.enabledParsers": [
+    "yaml"
+  ],
+  "i18n-ally.sourceLanguage": "zh-CN",
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.enabledFrameworks": [
+    "vue",
+    "react"
+  ],
+  "cSpell.words": [
+    "2vxsx-fae",
+    "3dmodel",
+    "antd",
+    "antv",
+    "astrox",
+    "awooo",
+    "babylonjs",
+    "bignumber",
+    "brotli",
+    "clsx",
+    "corejs",
+    "dfinity",
+    "dinpro",
+    "distrikt",
+    "dompurify",
+    "dscvr",
+    "echarts",
+    "favorited",
+    "FIFA",
+    "formspree",
+    "gltf",
+    "hasher",
+    "hookform",
+    "icnaming",
+    "iconfont",
+    "icrc1",
+    "immer",
+    "lucide",
+    "METALOR",
+    "metaverse",
+    "modyfi",
+    "motoko",
+    "nanos",
+    "neverthrow",
+    "nfid",
+    "nodownload",
+    "nonfungible",
+    "octicon",
+    "onfido",
+    "Opie",
+    "origyn",
+    "packtool",
+    "parens",
+    "qrcode",
+    "shiku",
+    "subaccount",
+    "svgs",
+    "swiper",
+    "tailwindcss",
+    "tanstack",
+    "tiktok",
+    "trivago",
+    "usehooks",
+    "viem",
+    "x-matroska",
+    "yumi",
+    "zustand"
+  ],
+  "gutterpreview.imagePreviewMaxHeight": 60,
+  "gutterpreview.imagePreviewMaxWidth": 60,
+  "gutterpreview.sourceFolder": "public",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.folders.associations": {
+    "00_assets": "resource",
+    "01_types": "typescript",
+    "02_common": "shared",
+    "03_canisters": "contract",
+    "04_apis": "api",
+    "05_utils": "utils",
+    "06_locales": "i18n",
+    "07_stores": "database",
+    "08_hooks": "hook",
+    "09_components": "components",
+    "10_views": "views",
+    "11_routes": "routes",
+  },
+  "svg.preview.background": "dark-transparent"
+}

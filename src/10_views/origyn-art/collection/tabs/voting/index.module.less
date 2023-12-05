@@ -1,0 +1,250 @@
+.voting {
+    :global {
+        .details {
+            .text {
+                span {
+                    display: inline-block;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .tips-boxShadow {
+            box-shadow: 0px 4px 10px 1px rgba(102, 102, 102, 0.2);
+        }
+        .options {
+            box-shadow: 0px 4px 10px 1px rgba(102, 102, 102, 0.2);
+            .cells {
+                .ant-radio-group {
+                    width: 100%;
+                }
+                padding: 0 37px 31px;
+                .cell {
+                    &:first-child {
+                        margin-top: 20px;
+                    }
+                    margin-top: 30px;
+                    .ant-radio {
+                        top: 0;
+                    }
+                    .ant-radio-inner {
+                        width: 22px;
+                        height: 22px;
+                        border: 1px solid #730eff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &::after {
+                            position: unset;
+                            margin-top: unset;
+                            margin-left: unset;
+                            transform: scale(0.5);
+                            min-width: 30px;
+                            min-height: 30px;
+                            background-color: #730eff;
+                        }
+                    }
+
+                    .radio-title {
+                        position: relative;
+                        .win {
+                            position: absolute;
+                            background: url('https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/origyn/1692703188582_voting-win.svg')
+                                center no-repeat;
+                            background-size: contain;
+                            width: 24px;
+                            height: 24px;
+                            top: -25px;
+                            left: -2px;
+                        }
+                        .ant-radio-wrapper {
+                            align-items: center;
+                        }
+                        margin-bottom: 10px;
+                        align-items: flex-start;
+                        display: flex;
+                        font-family: Inter-Medium;
+                        line-height: normal;
+                        .label {
+                            color: #585858;
+                            font-size: 13px;
+                            white-space: nowrap;
+                        }
+                        .value {
+                            color: #000;
+                            font-family: Inter-Medium;
+                            font-size: 16px;
+                        }
+                    }
+                    .prog {
+                        height: 41px;
+                        border-radius: 35px;
+                        border: 1px solid #eaeaea;
+                        background: #fff;
+                        // max-width: 635px;
+                        position: relative;
+                        .ant-progress {
+                            .ant-progress-outer {
+                                height: unset !important;
+                            }
+                            top: 50%;
+                            width: calc(100% - 10px);
+                            left: 50%;
+                            transform: translateY(-50%) translateX(-50%);
+                            position: absolute;
+                            .ant-progress-inner {
+                                background-color: unset;
+                            }
+                            .ant-progress-bg {
+                                min-width: 31px;
+                                height: 31px !important;
+                            }
+                        }
+                        .show {
+                            position: relative;
+                            margin: 0 auto;
+                            width: calc(100% - 10px);
+                            display: flex;
+                            height: 100%;
+                            align-items: center;
+                            justify-content: space-between;
+                            font-family: Inter-Medium;
+                            .sale {
+                                font-size: 16px;
+                                color: #fff;
+                                margin-left: 4px;
+                            }
+                            .count {
+                                color: #c1c1c1;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                    .tips-option {
+                        font-size: 13px;
+                        font-family: Inter-Medium;
+                        color: #7355ff;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 20px;
+                        span {
+                            content: '';
+                            display: inline-block;
+                            width: 16px;
+                            height: 16px;
+                            margin-right: 6px;
+                            background: url('https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/icons/1691636644257_add-whitelist-icon.svg')
+                                center no-repeat;
+                            background-size: contain;
+                        }
+                    }
+                }
+            }
+        }
+        .record {
+            box-shadow: 0px 4px 10px 1px rgba(102, 102, 102, 0.2);
+            table {
+                width: 100%;
+                thead {
+                    th {
+                        padding-bottom: 25px;
+                        text-align: left;
+                        width: 33%;
+                        color: #999;
+                        font-size: 14px;
+                        line-height: 18px;
+                        font-family: Inter-Medium;
+                    }
+                }
+                tbody {
+                    tr {
+                        &:last-child {
+                            td {
+                                padding-bottom: 25px;
+                            }
+                        }
+
+                        td {
+                            padding-bottom: 34px;
+                            font-family: Inter-Medium;
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            border: unset;
+            color: #f0f0f0;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .voting {
+        :global {
+            .record {
+                box-shadow: unset;
+                table {
+                    thead {
+                        th {
+                            font-size: 12px;
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 13px;
+                                white-space: nowrap;
+                            }
+                        }
+                    }
+                }
+            }
+            .options {
+                margin-top: 40px;
+                box-shadow: unset;
+                .title {
+                    height: 56px;
+                    font-size: 20px;
+                    line-height: 32px;
+                    padding-left: 15px;
+                }
+                .cells {
+                    padding: 0 15px;
+                    .cell {
+                        .ant-radio-wrapper {
+                            align-items: start;
+                            margin-bottom: 13px;
+                        }
+                        .ant-radio-inner {
+                            width: 12px;
+                            height: 12px;
+                            &::after {
+                                width: 10px;
+                                height: 10px;
+                            }
+                        }
+                        .radio-title {
+                            .win {
+                                width: 18px;
+                                height: 18px;
+                                left: -1px;
+                                top: -20px;
+                            }
+                            align-items: start;
+                            .label {
+                                white-space: nowrap;
+                                font-size: 12px;
+                            }
+                            .value {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

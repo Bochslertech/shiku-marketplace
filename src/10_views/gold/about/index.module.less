@@ -1,0 +1,134 @@
+.gold-introduction {
+    :global {
+        .z-neg-1 {
+            z-index: -1;
+        }
+        .advantage-table {
+            margin-top: 68px;
+            display: flex;
+            width: 1340px;
+            .col {
+                font-size: 20px;
+                font-family: 'Inter-medium';
+                line-height: 20px;
+                text-align: center;
+                min-width: 190px;
+                > div {
+                    padding: 25px 30px;
+                    height: 70px;
+                    &:nth-child(even) {
+                        background-color: #f0f0f0;
+                    }
+                    &:first-child {
+                        font-family: 'Inter-SemiBold';
+                        line-height: 26px;
+                        height: 100px;
+                    }
+                }
+                &:first-child {
+                    font-family: 'Inter-SemiBold';
+                    text-align: left;
+                    > div {
+                        border-radius: 8px 0 0 8px;
+                    }
+                }
+                &:last-child {
+                    > div {
+                        border-radius: 0 8px 8px 0;
+                    }
+                }
+            }
+            .yumi {
+                background-color: #c79f5d;
+                color: #fff;
+                border-radius: 16px;
+                overflow: hidden;
+                > div {
+                    &:nth-child(even) {
+                        background-color: #c79f5d;
+                    }
+                    &:first-child {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    &:last-child {
+                        height: 100px;
+                    }
+                    .true {
+                        filter: none;
+                    }
+                }
+            }
+            .true {
+                width: 28px;
+                height: 20px;
+                background-image: url(https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/goldNFT/table-true.svg);
+                background-size: contain;
+                margin: auto;
+                filter: brightness(0);
+                background-repeat: no-repeat;
+            }
+            .false {
+                width: 20px;
+                height: 20px;
+                margin: auto;
+                background-image: url(https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/goldNFT/table-false.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        .grid-cols-3 {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+@media screen and (max-width: 1023px) {
+    .gold-introduction {
+        :global {
+            .advantage-table {
+                width: fit-content;
+                .col {
+                    font-size: 12px;
+                    max-width: 150px;
+                    min-width: 100px;
+                    line-height: 16px;
+                    > div {
+                        padding: 9px 10px;
+                        height: 50px;
+                        max-width: 150px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &:first-child {
+                            height: 70px;
+                            line-height: 18px;
+                        }
+                        &:last-child {
+                            height: 70px;
+                        }
+                    }
+                    &:first-child {
+                        > div {
+                            justify-content: flex-start;
+                        }
+                    }
+                    &:last-child {
+                        margin-right: 20px;
+                    }
+                }
+                .yumi {
+                    max-width: 150px;
+                }
+                .true {
+                    width: 14px;
+                    height: 10px;
+                }
+                .false {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}

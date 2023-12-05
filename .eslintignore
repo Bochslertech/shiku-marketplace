@@ -1,0 +1,13 @@
+/node_modules/
+/public/
+.vscode
+.idea
+/dist/
+src/assets
+.eslintrc.cjs
+/src/**/*.did.ts
+/src/**/*.did.d.ts
+build/vite/plugins
+postcss.config.cjs
+tailwind.config.js
+vite.config.ts

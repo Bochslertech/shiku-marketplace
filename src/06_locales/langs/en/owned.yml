@@ -1,0 +1,129 @@
+main:
+    title: BECOME
+    title2: A CO-OWNER
+    tip: 'For the First Time in History, Become a Co-Owner of a Physical Artwork Powered by NFT'
+    explore: EXPLORE OUR COLLECTIONS
+    card1:
+        title: 'LAUNCHPAD'
+        text1: 'Be the first to have access to new'
+        text2: 'collections, and become an early'
+        text3: 'investor in an iconic artwork'
+    card2:
+        title: 'MARKETPLACE'
+        text1: 'Discover available collections from'
+        text2: 'all categories'
+    exploreBtn: 'Explore collections'
+    wallet:
+        title: 'Connect your wallet in 3 easy steps'
+        tip:
+            'To collect and sell pieces of artwork on Yumi, you will need an IC-based wallet and ICP
+            tokens.'
+    card3:
+        text1: 'Pick and setup your favorite ICP wallet. Yumi supports'
+        me: 'AstroX'
+        iw: 'Infinity Wallet'
+        ii: 'Internet Identity'
+        plug: 'Plug'
+        stoic: 'Stoic'
+        and: 'and'
+        text2: 'Purchase ICP tokens on an exchange such as'
+        coinbase: 'Coinbase'
+        binance: 'Binance'
+        kraken: 'Kraken'
+        huobi: 'Huobi'
+        bitfinex: 'Bitfinex'
+        other: 'and many others'
+        text3: 'For detailed information please refer to our'
+        gitBook: 'gitBook'
+        text4: 'Login to'
+        text5: 'with your wallet and start trading amazing assets.'
+        text6: 'Transfer your ICP tokens from the exchange to your wallet.'
+    foundation:
+        title: 'ORIGYN is a Swiss Foundation'
+        text1:
+            'At ORIGYN Foundation, we combine intelligent technologies and decentralized computing
+            to identify, authenticate and unlock the powers of ownership for the world’s most
+            valuable objects.'
+        text2:
+            'ORIGYN brings NFTs to life with biometric data and unique ownership experiences to
+            power brands, creators, artists, marketplaces, consumers and industries with guaranteed
+            certificates of authenticity.'
+        more: 'LEARN MORE'
+launchpad:
+    title: BECOME AN
+    title2: EARLY INVESTOR
+    tip:
+        'Invest in iconic artworks and become part of an exclusive community of co-owners and
+        masterpiece collectors around the world.'
+    about: 'About the collection'
+    julian: 'Julian Opie (b. 1958)'
+    price: 'Price'
+    time: 'Remaining Time'
+    available: 'Available'
+    days: 'DAYS'
+    hr: 'HR'
+    mins: 'MINS'
+    secs: 'SECS'
+    pieces: 'Number of pieces'
+    total: 'Total'
+    buy: 'Buy'
+    buying: 'What am I buying?'
+    details: 'ARTWORK DETAILS'
+    conditions: 'Launchpad sale conditions'
+    sold: 'Number of fractions sold'
+    soldOut: 'Sold out'
+    reached: 'USD target reached'
+    or: 'OR'
+    tooltipTipText1: 'The launchpad sale will be successful in two scenarios'
+    tooltipTipText2: ' 100% of fractions are sold: '
+    tooltipTipText3: 'If all 1000 fractions are sold, the launchpad sale will finish successfully'
+    tooltipTipText4: ' 150k USD worth of fractions are sold: '
+    tooltipTipText5:
+        'Fractions are sold for 35 ICP per piece. If the value of all fractions sold is greater than
+        150 kUSD, the launchpad sale will be successful. For example, if the price of ICP
+        appreciates to 5 USD/ICP, the sale will be successful when only 86% of fractions are sold.'
+    accept: 'I accept term and conditions'
+    confirm: 'Confirm'
+search:
+    title: 'JOIN THE COMMUNITY'
+    placeholder: 'Your email address'
+    subscribe: 'Subscribe'
+market:
+    total: 'Total Pieces'
+    sale: 'Pieces for Sale'
+    buy: 'Buy Pieces'
+collection:
+    artist: 'Artist'
+    provenance: 'Provenance'
+    enamel: 'Enamel and dayglo on metal'
+    fractions: 'Fractions'
+    floor: 'Floor price'
+    last: 'Last transaction'
+    tab:
+        map: 'Map'
+        listing: 'Lots for Sale'
+        activity: 'Activity'
+        voting: 'Voting'
+    map:
+        owner: 'Owner'
+        fraction: 'Fraction ID'
+        price: 'Price'
+    activity:
+        item: 'Item'
+        price: 'Price'
+        from: 'From'
+        to: 'To'
+        time: 'Time'
+detail:
+    tab:
+        artist: 'Artist'
+        media: 'Media'
+        artwork: 'Artwork History'
+
+land:
+    tab:
+        julian: 'JULIAN OPIE'
+        faq: 'FAQ'
+        guide: 'Guide'
+    email: 'Enter your email address'
+    stayTuned: 'Stay tuned'

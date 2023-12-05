@@ -1,0 +1,27 @@
+{
+    "jsc": {
+        "target": "es5", // 输出js的规范
+        "parser": {
+            "syntax": "typescript",
+            "tsx": true,
+            "decorators": false,
+            "dynamicImport": true
+        },
+        "minify": {} // 压缩相关配置，需要先开启压缩
+    },
+    "env": {
+        "targets": {
+            "ie": "11" // 只兼容到 ie 11
+        },
+        "corejs": "3" // corejs 的版本
+    },
+    "module": {
+        "type": "commonjs",
+        "strict": false,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+    },
+    "sourceMaps": true,
+    "minify": true // 是否开启压缩
+}

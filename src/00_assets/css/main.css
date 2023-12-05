@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 222.2 84% 4.9%;
+
+        --muted: 210 40% 96.1%;
+        --muted-foreground: 215.4 16.3% 46.9%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 222.2 84% 4.9%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 222.2 84% 4.9%;
+
+        --border: 214.3 31.8% 91.4%;
+        --input: 214.3 31.8% 91.4%;
+
+        --primary: 222.2 47.4% 11.2%;
+        --primary-foreground: 210 40% 98%;
+
+        --secondary: 210 40% 96.1%;
+        --secondary-foreground: 222.2 47.4% 11.2%;
+
+        --accent: 210 40% 96.1%;
+        --accent-foreground: 222.2 47.4% 11.2%;
+
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 40% 98%;
+
+        --ring: 215 20.2% 65.1%;
+
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+
+        --primary: 210 40% 98%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 85.7% 97.3%;
+
+        --ring: 217.2 32.6% 17.5%;
+    }
+
+    html {
+        /* 抗锯齿，解决字体粗细不一样的问题 */
+        @apply antialiased;
+        line-height: 1.5715;
+    }
+}
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .scrollbar-none::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .scrollbar-none {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}
+
+@layer utilities {
+    .custom-input::-webkit-outer-spin-button,
+    .custom-input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .custom-box-shadow {
+        box-shadow:
+            0 0 6px rgba(0, 0, 0, 0.3),
+            inset 0 0 2px #fff;
+    }
+
+    .co-card-bg {
+        background-image: linear-gradient(278.92deg, #252525 -5.27%, #353535 95.27%);
+    }
+
+    .co-card-bg2 {
+        background: linear-gradient(256.02deg, #343434 -66.53%, #2b2b2b 101.92%);
+        box-shadow: 0 -5px 20px #00000040;
+    }
+
+    .custom-gradient {
+        background: linear-gradient(270deg, #c5b3581f -17.55%, #c4c4c400 22.81%);
+    }
+
+    .kyc-progress {
+        background: linear-gradient(
+            92.78deg,
+            #ffffff 7.92%,
+            rgba(237, 237, 237, 0.5) 40.39%,
+            #ffffff 68.74%,
+            rgba(237, 237, 237, 0.5) 92.55%
+        );
+        box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav-gold {
+        -webkit-text-fill-color: #0000;
+        background: linear-gradient(
+            100.58deg,
+            #9a7838 16.73%,
+            #dcc381 29.39%,
+            #856123 36.78%,
+            #dcc381 61.08%,
+            #9f7a36 72.05%,
+            #d3b977 96.5%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition: 0.15s;
+    }
+
+    .nav-gold:hover {
+        -webkit-text-fill-color: #0000;
+        background: linear-gradient(100.58deg, #af8536 0, #af8536 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition: 0.15s;
+    }
+
+    .nav-shiku {
+        -webkit-text-fill-color: #0000;
+        background: linear-gradient(96.59deg, #739aff 8.86%, #7312ff 97.7%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition: 0.15s;
+    }
+
+    .nav-shiku:hover {
+        -webkit-text-fill-color: #0000;
+        background: linear-gradient(96.59deg, #ffb341 8.86%, #7312ff 97.7%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        transition: 0.15s;
+    }
+
+    .nav-voting-mask {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 68.23%);
+    }
+}

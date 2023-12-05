@@ -1,0 +1,35 @@
+{
+    "canisters": {
+        "frontend-yumi-next-development": {
+            "frontend": { "entrypoint": "dist/index.html" },
+            "source": ["dist/"],
+            "type": "assets"
+        },
+        "frontend-yumi-next-test": {
+            "frontend": { "entrypoint": "dist/index.html" },
+            "source": ["dist/"],
+            "type": "assets"
+        },
+        "frontend-yumi-next-staging": {
+            "frontend": { "entrypoint": "dist/index.html" },
+            "source": ["dist/"],
+            "type": "assets"
+        },
+        "frontend-yumi-next-production": {
+            "frontend": { "entrypoint": "dist/index.html" },
+            "source": ["dist/"],
+            "type": "assets"
+        },
+        "frontend-yumi-next-production-main": {
+            "frontend": { "entrypoint": "dist/index.html" },
+            "source": ["dist/"],
+            "type": "assets"
+        }
+    },
+    "defaults": {
+        "build": {
+            "packtool": ""
+        }
+    },
+    "version": 1
+}

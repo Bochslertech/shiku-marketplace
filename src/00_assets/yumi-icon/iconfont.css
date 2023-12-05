@@ -1,0 +1,199 @@
+@font-face {
+  font-family: "yumi-icon"; /* Project id 4256746 */
+  src: url('iconfont.woff2?t=1697621073895') format('woff2'),
+       url('iconfont.woff?t=1697621073895') format('woff'),
+       url('iconfont.ttf?t=1697621073895') format('truetype');
+}
+
+.yumi-icon {
+  font-family: "yumi-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nft-ticket:before {
+  content: "\e641";
+}
+
+.icon-star:before {
+  content: "\e640";
+}
+
+.icon-alert:before {
+  content: "\e642";
+}
+
+.icon-whitelist-status-blank:before {
+  content: "\e6d0";
+}
+
+.icon-whitelist-status-loading:before {
+  content: "\e63f";
+}
+
+.icon-whitelist-status-done:before {
+  content: "\e631";
+}
+
+.icon-grid-middle:before {
+  content: "\e62a";
+}
+
+.icon-grid-small:before {
+  content: "\e62c";
+}
+
+.icon-heart:before {
+  content: "\e7df";
+}
+
+.icon-heart-fill:before {
+  content: "\e849";
+}
+
+.icon-direction:before {
+  content: "\e6c9";
+}
+
+.icon-arrow-right:before {
+  content: "\e60c";
+}
+
+.icon-arrow-right-origyn:before {
+  content: "\e633";
+}
+
+.icon-action-skip:before {
+  content: "\e65e";
+}
+
+.icon-action-question:before {
+  content: "\e61a";
+}
+
+.icon-action-read:before {
+  content: "\e686";
+}
+
+.icon-action-decrement:before {
+  content: "\e60b";
+}
+
+.icon-action-increment:before {
+  content: "\e603";
+}
+
+.icon-action-edit-pencil:before {
+  content: "\e96c";
+}
+
+.icon-action-notice:before {
+  content: "\e626";
+}
+
+.icon-action-menu:before {
+  content: "\e62d";
+}
+
+.icon-media-tiktok:before {
+  content: "\e63e";
+}
+
+.icon-media-youtube:before {
+  content: "\e63d";
+}
+
+.icon-link-dscvr:before {
+  content: "\e63c";
+}
+
+.icon-link-telegram:before {
+  content: "\e63b";
+}
+
+.icon-link-distrikt:before {
+  content: "\e63a";
+}
+
+.icon-link-twitter:before {
+  content: "\e637";
+}
+
+.icon-link-website:before {
+  content: "\e638";
+}
+
+.icon-link-instagram:before {
+  content: "\e639";
+}
+
+.icon-link-discord:before {
+  content: "\e635";
+}
+
+.icon-link-medium:before {
+  content: "\e634";
+}
+
+.icon-media-twitter:before {
+  content: "\e636";
+}
+
+.icon-media-instagram:before {
+  content: "\e632";
+}
+
+.icon-media-discord:before {
+  content: "\e630";
+}
+
+.icon-media-distrikt:before {
+  content: "\e62f";
+}
+
+.icon-media-dscvr:before {
+  content: "\e62b";
+}
+
+.icon-media-medium:before {
+  content: "\e62e";
+}
+
+.icon-action-transfer:before {
+  content: "\e624";
+}
+
+.icon-action-refresh:before {
+  content: "\e623";
+}
+
+.icon-action-cart:before {
+  content: "\e622";
+}
+
+.icon-action-close:before {
+  content: "\e618";
+}
+
+.icon-action-delete:before {
+  content: "\e613";
+}
+
+.icon-profile-activity:before {
+  content: "\e629";
+}
+
+.icon-profile-favorited:before {
+  content: "\e628";
+}
+
+.icon-profile-created:before {
+  content: "\e627";
+}
+
+.icon-profile-collected:before {
+  content: "\e625";
+}
+

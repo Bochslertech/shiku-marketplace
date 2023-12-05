@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+<g filter="url(#filter0_f_8308_9809)">
+<path d="M5.55762 9.55762C5.55762 7.34848 7.34848 5.55762 9.55762 5.55762H24.9181C27.1272 5.55762 28.9181 7.34848 28.9181 9.55762V24.9181C28.9181 27.1272 27.1272 28.9181 24.9181 28.9181H9.55762C7.34848 28.9181 5.55762 27.1272 5.55762 24.9181V9.55762Z" fill="white" fill-opacity="0.3"/>
+</g>
+<path d="M4 8C4 5.79086 5.79086 4 8 4H26.4752C28.6844 4 30.4752 5.79086 30.4752 8V26.4752C30.4752 28.6844 28.6843 30.4752 26.4752 30.4752H8C5.79086 30.4752 4 28.6843 4 26.4752V8Z" fill="white" fill-opacity="0.23"/>
+<g filter="url(#filter1_f_8308_9809)">
+<path d="M7.11475 11.1143C7.11475 8.90512 8.90561 7.11426 11.1147 7.11426H26.4752C28.6844 7.11426 30.4752 8.90512 30.4752 11.1143V26.4747C30.4752 28.6839 28.6844 30.4747 26.4752 30.4747H11.1147C8.90561 30.4747 7.11475 28.6839 7.11475 26.4747V11.1143Z" fill="white" fill-opacity="0.3"/>
+</g>
+<path d="M5.55713 9.55664C5.55713 7.3475 7.34799 5.55664 9.55713 5.55664H28.0323C30.2415 5.55664 32.0323 7.3475 32.0323 9.55664V28.0319C32.0323 30.241 30.2415 32.0319 28.0323 32.0319H9.55713C7.34799 32.0319 5.55713 30.241 5.55713 28.0319V9.55664Z" fill="white" fill-opacity="0.23"/>
+<defs>
+<filter id="filter0_f_8308_9809" x="0.557617" y="0.557617" width="33.3604" height="33.3606" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_8308_9809"/>
+</filter>
+<filter id="filter1_f_8308_9809" x="2.11475" y="2.11426" width="33.3604" height="33.3606" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_8308_9809"/>
+</filter>
+</defs>
+</svg>

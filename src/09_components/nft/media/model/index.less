@@ -1,0 +1,26 @@
+.model-viewer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    &.scale {
+        transform: scale(1.8);
+        .progress-bar {
+            transform: scale(0.5);
+        }
+    }
+    .progress-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Inter-Medium';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        // transform: translateX(-50%) translateY(-50%);
+    }
+}

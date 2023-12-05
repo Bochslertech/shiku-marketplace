@@ -1,0 +1,27 @@
+.gold-faq {
+    :global {
+        .item-answer {
+            > a {
+                text-decoration: underline;
+            }
+        }
+        .faq-list-item {
+            &:first-child {
+                border-top: 1px solid rgba(0, 0, 0, 0.3);
+            }
+        }
+        .item-detail {
+            width: calc(100% - 64px - 119px);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .gold-faq {
+        :global {
+            .item-detail {
+                width: calc(100% - 120px);
+            }
+        }
+    }
+}

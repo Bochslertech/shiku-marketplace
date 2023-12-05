@@ -1,0 +1,68 @@
+.profile-container {
+    > .profile-content {
+        > .tabs {
+            padding-bottom: 10px;
+            border-bottom: 1px lightblue dashed;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            > .left {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                > div {
+                    margin-right: 10px;
+                    cursor: pointer;
+                    &.current {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        > .profile-collected,
+        > .profile-created,
+        > .profile-favorite {
+            > .items {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: flex-start;
+            }
+        }
+    }
+}
+
+.setting-container {
+    .ant-input {
+        background-color: #f8f8f8;
+        height: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .ant-input:focus {
+        // border: 1px solid #4096ff !important;
+        outline: none !important;
+        border: none !important;
+    }
+    // .ant-input:first-child {
+    //     &:focus {
+    //         outline: none !important;
+    //         border: none !important;
+    //     }
+    // }
+    .ant-form-item .ant-form-item-control-input .ant-form-item-control-input-content .ant-input {
+        height: 100% !important;
+    }
+    .ant-form-item .ant-form-item-control-input .ant-form-item-control-input-content .email {
+        height: 60px !important;
+    }
+    .ant-input-affix-wrapper {
+        background-color: #f8f8f8;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}

@@ -1,0 +1,73 @@
+.hack-container {
+    // width: 100%
+    min-height: 100%;
+    overflow-y: auto;
+    padding: 25px;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+    > div {
+        margin-top: 20px;
+        border-top: 1px dashed gray;
+        &:first-child {
+            margin-top: 0px;
+            border-top: none;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+        }
+        > div {
+            .item {
+                height: 30px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                .label {
+                    min-width: 75px;
+                    margin-right: 10px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+        > .hack-settings {
+            .item {
+                select {
+                    height: 24px;
+                }
+                &.theme {
+                    select {
+                        width: 80px;
+                    }
+                }
+                &.backend-type {
+                    select {
+                        width: 120px;
+                        &.production {
+                            background-color: #e3584d;
+                        }
+                        &.staging {
+                            background-color: #f7c846;
+                        }
+                        &.test {
+                            background-color: #65c444;
+                        }
+                    }
+                }
+            }
+        }
+
+        > .hack-information {
+            .logout {
+                margin-left: 10px;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.hack-settings-backend-modal {
+    button.ant-btn-primary {
+        background-color: #1677ff;
+    }
+}

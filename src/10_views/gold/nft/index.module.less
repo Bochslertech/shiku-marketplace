@@ -1,0 +1,160 @@
+.gold-details {
+    :global {
+        .details {
+            box-shadow: 0px 4px 10px rgba(72, 72, 72, 0.25);
+        }
+        .buy-row {
+            display: flex;
+            .buy-button {
+                font-weight: 700;
+                font-size: 14px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 8px;
+                font-size: 16px;
+            }
+            .sell-button {
+                font-weight: 700;
+                font-size: 14px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 8px;
+                font-size: 16px;
+                flex: 1;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &.loading-w {
+                    background-color: #5c5c5c;
+                }
+                .loading {
+                    cursor: pointer;
+                    background-image: url(https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/loading-gif.gif);
+                    background-size: contain;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+            }
+            .add-button {
+                background: #000000;
+                border-radius: 8px;
+                color: #fff;
+                width: 60px;
+                height: 60px;
+                font-size: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                background-image: url('https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/icons/1672911030347_Vector.svg');
+                background-size: 60% 60%;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-left: 30px;
+                &.added {
+                    background-image: url('https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/market/1676035963082_isIn.svg');
+                    background-size: 60% 60%;
+                    background-position: center;
+                }
+            }
+            .change-button {
+                font-weight: 700;
+                background-color: #000;
+                color: #fff;
+                border-radius: 8px;
+                font-size: 16px;
+                flex: 1;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &.loading-w {
+                    background-color: #5c5c5c;
+                }
+                .loading {
+                    cursor: pointer;
+                    background-image: url(https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/loading-gif.gif);
+                    background-size: contain;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+            }
+            .cancel-button {
+                background: #000000;
+                border: 1px solid #000000;
+                border-radius: 8px;
+                color: #fff;
+                flex: 1;
+                height: 60px;
+                margin-left: 10px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                font-weight: 700;
+                font-size: 16px;
+                cursor: pointer;
+                &.loading-w {
+                    background-color: #5c5c5c;
+                }
+                .loading {
+                    cursor: pointer;
+                    background-image: url(https://yumi-frontend-assets.s3.ap-east-1.amazonaws.com/yumi/loading-gif.gif);
+                    background-size: contain;
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .buy-row {
+            border-radius: 16px;
+            display: flex;
+            margin-top: 34px;
+            align-items: center;
+            justify-content: space-between;
+            .upcoming-button {
+                width: 100%;
+                background: #999999;
+                border-radius: 8px;
+                color: #fff;
+                height: 61px;
+                display: flex;
+                font-weight: 700;
+                font-size: 16px;
+                align-items: center;
+                justify-content: center;
+            }
+            .buy-button {
+                height: 61px;
+                flex: 1;
+                background: #000000;
+                border-radius: 8px;
+                // margin-right: 25px;
+                color: #fff;
+                display: flex;
+                font-weight: 700;
+                font-size: 16px;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+            .v-c {
+                color: #999999;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 16px;
+                margin-right: 33px;
+                font-family: 'Inter-Medium';
+            }
+        }
+    }
+}

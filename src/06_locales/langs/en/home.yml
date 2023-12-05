@@ -1,0 +1,92 @@
+connect:
+    intro: >-
+        Select the wallet you would like to connect. If the wallet of your choice is not here,
+        please let us know, and Yumi will support more wallet access in the future, so stay tuned.
+    learnMore:
+        link: ' Learn more'
+        text: |-
+            If you don't have a wallet,
+            you can select a provider and create one now
+    leftImage:
+        text: >-
+            Leading everyone to true ownership of digital goods and assets, and enhancing them with
+            virtual immersive experiences.
+    text: Connect Wallet
+search:
+    placeholder: Search Yumi
+nav:
+    origyn-art: Co-Owned
+    connect: Connect Wallet
+    explore: Explore
+    gold: Gold
+    launchpad: Launchpad
+    rankings: Rankings
+    shiku: Shiku
+    collectibles: 'Collectibles'
+    oat: 'OAT'
+    art: 'Art'
+    about: 'About'
+    market: 'Market'
+text: Home
+ic: Internet Computer
+wallet:
+    ii: Internet Identity
+    infinity: Bitfinity
+    me: AstroX Me
+    nfid: NFID
+    plug: Plug
+    stoic: Stoic
+banner:
+    nft: 'Yumi NFT'
+    marketplace: 'Marketplace'
+    tip:
+        'The premier marketplace for digital and physical asset NFTs. Become a visionary - join the
+        NFT revolution!'
+    explore: 'Explore'
+    create: 'Create'
+notable:
+    title: 'Notable collections'
+    more: 'View more'
+    floor: 'Floor'
+    owners: 'Owners'
+    volume: 'Volume'
+    explore: 'Explore'
+    soon: 'Coming soon'
+
+featured:
+    title: 'Featured NFTs'
+launchpad:
+    title: 'Launchpad'
+    explore: 'View more'
+    more: 'View more details'
+    end: 'End in'
+    trees: 'Natural Future Trees'
+    tip:
+        "10.000 Unique nft's living on the icp network picturing John Though, the lonesome tree
+        whose purpose is to help the world regain balance by planting real life trees."
+partner:
+    title: 'Partner with Yumi'
+    tip:
+        'As a comprehensive one-stop NFT service platform, Yumi provides customized minting,
+        launching, trading, storage, and branding solutions. Empower your project with Yumi.'
+    contact: 'Contact'
+    guide: 'Guide'
+footer:
+    explore: 'Explore'
+    resources: 'Resources'
+    legal: 'Legal'
+    company: 'Company'
+    signUp: 'Sign Up'
+    newsletter: "Subscribe to Yumi's newsletter"
+    email: 'Email Address'
+notice:
+    markAsRead: 'Mark as read'
+    markAsAllRead: 'Mark all as read'
+    title: 'Notification'
+    noData: 'No Data'
+    viewAll: 'View All'
+    unread: 'Unread'
+    alreadyRead: 'Already Read'
+    accept: 'Your work has been reviewed by the platform, please go to check.'
+    reject: 'Your work has not been approved, please contact the official staff.'
+    goView: 'Go to view'

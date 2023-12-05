@@ -35,10 +35,7 @@ import {
 } from './module_47a7c018/ogy_47a7c018.did.d';
 import module_243d1642 from './module_243d1642';
 import { CollectionInfo as CollectionInfo_243d1642 } from './module_243d1642/ogy_243d1642.did.d';
-import {
-    AuctionStateShared as AuctionStateStable_243d1642,
-    ICTokenSpec as ICTokenSpec_243d1642,
-} from './module_243d1642/ogy_243d1642.did.d';
+import { AuctionStateShared as AuctionStateStable_243d1642 } from './module_243d1642/ogy_243d1642.did.d';
 import module_568a07bb from './module_568a07bb';
 import module_9293bd34 from './module_9293bd34';
 import module_b99da57c from './module_b99da57c';

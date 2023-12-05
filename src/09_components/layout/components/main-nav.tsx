@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import _ from 'lodash';
 import { cn } from '@/02_common/cn';
 import { IconLogoShiku } from '@/09_components/icons';
 

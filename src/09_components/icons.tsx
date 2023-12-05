@@ -23,8 +23,11 @@ const Icon = ({
 export const IconLogoYumi = ({ onClick, className }: { onClick?: H; className?: string }) =>
     Icon({ src: wrap_path('logo/yumi.svg'), onClick, className, alt: 'yumi logo' });
 
+export const IconLogoShiku = ({ onClick, className }: { onClick?: H; className?: string }) =>
+    Icon({ src: '/img/logo/shiku.svg', onClick, className, alt: 'yumi logo' });
+
 export const IconLogoYumiGold = ({ onClick, className }: { onClick?: H; className?: string }) =>
-    Icon({ src: wrap_path('logo/yumi-gold.svg'), onClick, className, alt: 'yumi gold logo' });
+    Icon({ src: wrap_path('/logo/yumi-gold.svg'), onClick, className, alt: 'yumi gold logo' });
 
 export const IconLogoYumiWhite = ({ onClick, className }: { onClick?: H; className?: string }) =>
     Icon({ src: wrap_path('logo/yumi-white.svg'), onClick, className, alt: 'yumi logo' });
@@ -105,8 +108,7 @@ export const IconArrowFeaturedLeft = ({
 export const PreloadIcons = () => {
     return (
         <div className="invisible absolute">
-            <IconLogoYumi />
-            <IconLogoYumiGold />
+            <IconLogoShiku />
             <IconLogoLedgerIcp />
             <IconLogoLedgerOgy />
             <IconWallet />

@@ -4,11 +4,8 @@ import ConnectPage from '@/10_views/connect';
 import HackPage from '@/10_views/hack';
 import HomePage from '@/10_views/home';
 import explore from './modules/explore';
-import gold from './modules/gold';
-import kyc from './modules/kyc';
 import launchpad from './modules/launchpad';
 import market from './modules/market';
-import origyn_art from './modules/origyn-art';
 import others from './modules/others';
 import profile from './modules/profile';
 import shiku from './modules/shiku';
@@ -36,12 +33,9 @@ const routes: RouteObject[] = [
         element: <ConnectPage />,
     },
     ...profile,
-    ...kyc,
     ...launchpad,
     ...market,
     ...explore,
-    ...origyn_art,
-    ...gold,
     ...shiku,
     ...others,
     ...whitelist,

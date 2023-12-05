@@ -26,7 +26,7 @@ const FilterSelect = <T extends string>({
     return (
         <Select
             className={cn(
-                'h-[46px] w-full overflow-hidden rounded-[8px] border border-transparent bg-[#F6F6F6] outline-none hover:border-[#ccc] md:mt-0 md:w-3/12',
+                'h-[46px] w-full overflow-hidden rounded-[8px] border border-transparent bg-[#191e2e] outline-none hover:border-[#ccc] md:mt-0 md:w-3/12',
                 className,
             )}
             defaultValue={defaultValue}
@@ -40,7 +40,7 @@ const FilterSelect = <T extends string>({
             {options.map((option) => (
                 <Option
                     key={option.value}
-                    className="flex h-[40px] w-full cursor-pointer items-center justify-center rounded-[8px] bg-[#F6F6F6] px-[38px] py-[15px] font-inter-medium "
+                    className="flex h-[40px] w-full cursor-pointer items-center justify-center rounded-[8px] bg-[#191e2e] px-[38px] py-[15px] font-inter-medium "
                     value={option.value}
                     label={option.label}
                 >

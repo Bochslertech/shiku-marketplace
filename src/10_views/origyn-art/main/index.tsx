@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { cdn } from '@/02_common/cdn';
 import { AssureLink } from '@/02_common/react/link';
 import { useIdentityStore } from '@/07_stores/identity';
-import { IconLogoYumiWhite } from '@/09_components/icons';
+import { IconLogoShiku } from '@/09_components/icons';
 import YumiIcon from '@/09_components/ui/yumi-icon';
 import './index.less';
 
@@ -263,7 +263,7 @@ function OrigynArtMainPage() {
                             className="co-card-bg2 rounded-[30px] px-[20px] py-3 text-[16px] font-light leading-[30px] text-[#fffc] md:rounded-full md:px-[80px] md:py-5 md:text-[22px]"
                         >
                             {t('owned.main.card3.text4')}{' '}
-                            <IconLogoYumiWhite className="inline h-[17px]" />{' '}
+                            <IconLogoShiku className="inline h-[17px]" />{' '}
                             {t('owned.main.card3.text5')}
                         </AssureLink>
                     </div>

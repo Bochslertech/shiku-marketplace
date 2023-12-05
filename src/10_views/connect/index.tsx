@@ -2,9 +2,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { t } from 'i18next';
 import { ConnectType } from '@/01_types/identity';
 import { url_cdn_by_assets } from '@/02_common/cdn';
-import { isGoldTheme } from '@/05_utils/app/env';
 import { useConnectHooks } from '@/08_hooks/views/connect';
-import { IconLogoYumi, IconLogoYumiGold } from '@/09_components/icons';
+import { IconLogoShiku } from '@/09_components/icons';
 import YumiIcon from '@/09_components/ui/yumi-icon';
 
 // wallet icons
@@ -37,17 +36,11 @@ function ConnectPage() {
                 </div>
             </div>
             <div className="scrollbar-none box-border flex h-screen flex-col overflow-scroll pl-[15px] pr-[15px] pt-[17px] md:pl-[132px]  md:pt-[44px] ">
-                {isGoldTheme() ? (
-                    <IconLogoYumiGold
-                        className="mb-[31px] h-[24px] w-[91px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat md:hidden"
-                        onClick={() => navigate('/')}
-                    />
-                ) : (
-                    <IconLogoYumi
-                        className="mb-[31px] h-[24px] w-[91px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat md:hidden"
-                        onClick={() => navigate('/')}
-                    />
-                )}
+                <IconLogoShiku
+                    className="mb-[31px] h-[24px] w-[91px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat md:hidden"
+                    onClick={() => navigate('/')}
+                />
+
                 <h1 className="hidden w-full font-inter-bold text-3xl font-bold leading-[38px] text-black md:block">
                     {t('home.connect.text')}
                 </h1>

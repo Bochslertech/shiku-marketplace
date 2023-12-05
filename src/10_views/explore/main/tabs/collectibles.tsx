@@ -139,13 +139,11 @@ function ExploreCollectibles({ show }: { show: boolean }) {
         <div className="flex flex-col">
             <div className="mt-[30px] flex h-12 flex-1 flex-shrink-0 flex-col md:flex-row">
                 <div className="flex w-full">
-                    <div className="mr-5 flex h-12 w-12 cursor-pointer items-center justify-center rounded-[8px] bg-[#F6F6F6]">
+                    <div className="mr-5 flex h-12 w-12 cursor-pointer items-center justify-center rounded-[8px] bg-[#191e2e]">
                         <Refresh onClick={reload} control={!list} />
                     </div>
                     <FilterSearch
-                        className={
-                            'ml-[0px] mr-[0px] hidden w-full flex-1 md:mr-[27px] md:flex md:w-auto'
-                        }
+                        className={'ml-[0px] mr-[0px] hidden w-[423px] md:mr-[27px] md:flex'}
                         search={search}
                         setSearch={setSearch}
                     />

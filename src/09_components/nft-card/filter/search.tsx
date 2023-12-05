@@ -21,7 +21,7 @@ const FilterSearch = ({
         <div
             className={cn(
                 [
-                    'mr-[15px] flex h-12 w-12 flex-shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-[8px] bg-[#F6F6F6] md:mr-[27px]',
+                    'mr-[15px] flex h-12 w-12 flex-shrink-0 cursor-pointer items-center justify-center overflow-hidden rounded-[8px] bg-[#191e2e] md:mr-[27px]',
                 ],
                 className,
             )}
@@ -34,7 +34,7 @@ const FilterSearch = ({
                 alt=""
             />
             <input
-                className="h-full w-full border-none bg-[#F6F6F6] font-inter text-[14px] font-medium text-[#000] placeholder:text-[#B6B6B6] focus:outline-none"
+                className="h-full w-full border-none bg-[#191e2e] font-inter text-[14px] font-medium text-[#000] placeholder:text-[#B6B6B6] focus:outline-none"
                 placeholder={placeholder}
                 onChange={onChange}
                 value={search}

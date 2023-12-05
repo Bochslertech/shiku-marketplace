@@ -5,11 +5,10 @@ import { Drawer } from 'antd';
 import { ShoppingCartItem } from '@/01_types/yumi';
 import { cdn } from '@/02_common/cdn';
 import { cn } from '@/02_common/cn';
-import { isGoldTheme } from '@/05_utils/app/env';
 import { useIdentityStore } from '@/07_stores/identity';
 import { useArtists } from '@/08_hooks/views/artist';
 import { useIsGoldByPath } from '@/08_hooks/views/gold';
-import { IconLogoYumi, IconLogoYumiGold, IconWallet } from '@/09_components/icons';
+import { IconLogoShiku, IconWallet } from '@/09_components/icons';
 import { MainNav, useNavigateItems } from '@/09_components/layout/components/main-nav';
 import { NoticeDrawer } from '@/09_components/layout/components/notice-drawer';
 import { Button } from '@/09_components/ui/button';
@@ -17,13 +16,11 @@ import YumiIcon from '@/09_components/ui/yumi-icon';
 
 export const SiteHeader = memo(() => {
     const [menuDrawer, setMenuDrawer] = useState(false);
-    const { pathname } = useLocation();
     return (
         <>
             <header
                 className={cn(
-                    'fixed top-0 z-50  mx-auto flex h-[44px] w-full items-center justify-between bg-[#fff] bg-opacity-80 px-[20px] backdrop-blur-[18px] backdrop-filter md:h-[75px] md:px-[30px]',
-                    pathname && pathname === '/kyc/register' && 'hidden',
+                    'fixed top-0 z-50  mx-auto flex h-[44px] w-full items-center justify-between bg-[#101522] px-[20px]  md:h-[75px] md:px-[30px]',
                 )}
             >
                 <div className="flex h-full w-full items-center sm:justify-between sm:space-x-0">
@@ -168,11 +165,7 @@ const HeaderDrawer = ({
             open={menuDrawer}
         >
             <div className="flex h-[44px] w-full  items-center justify-between border-b px-[20px]">
-                {isGoldTheme() ? (
-                    <IconLogoYumiGold className="h-[28px] w-[105px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat" />
-                ) : (
-                    <IconLogoYumi className="h-[28px] w-[105px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat" />
-                )}
+                <IconLogoShiku className="h-[28px] w-[105px] flex-shrink-0 cursor-pointer bg-cover bg-center bg-no-repeat" />
 
                 <YumiIcon
                     name="action-close"

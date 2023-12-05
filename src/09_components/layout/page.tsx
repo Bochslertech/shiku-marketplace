@@ -1,8 +1,6 @@
 import { useEffect } from 'react';
 import { useAppStore } from '@/07_stores/app';
 import { PreloadIcons } from '../icons';
-import KycPromptModal from '../layout/components/kyc-prompt';
-import GoldModal from '../modal/gold-modal';
 import Cart from './components/cart';
 import Footer from './components/footer';
 import { SiteHeader } from './components/site-header';
@@ -23,7 +21,7 @@ function PageLayout({ children }) {
     }, [theme]);
 
     return (
-        <div className="relative flex min-h-screen flex-col overflow-x-hidden font-inter-regular">
+        <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-[#101522] font-inter-regular">
             <SiteHeader />
 
             <div className="mx-auto w-screen flex-1 pt-[44px] md:pt-[75px]">{children}</div>
@@ -33,8 +31,6 @@ function PageLayout({ children }) {
             {/* <BuyRecorder /> */}
             <TransactionNotification />
             <Cart />
-            <KycPromptModal />
-            <GoldModal />
             <PreloadIcons />
 
             <Footer />
